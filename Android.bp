@@ -17,9 +17,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleCORTEXM4",
+	name: "HotwordEnrollmentOKGoogleRT5514P",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -29,9 +29,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleCORTEXM4",
+	name: "HotwordEnrollmentXGoogleRT5514P",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleCORTEXM4/HotwordEnrollmentXGoogleCORTEXM4.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
