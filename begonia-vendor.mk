@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
+    vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.0-service-mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
@@ -276,6 +277,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
+    vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service-mediatek.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
@@ -1254,6 +1256,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni_R.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
@@ -1891,6 +1896,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuron_aidepth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_aidepth.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuron_runainr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runainr.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni_R.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
@@ -2021,5 +2034,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCORTEXM4 \
     HotwordEnrollmentXGoogleCORTEXM4 \
     android.hardware.gpu@1.0-service \
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service
