@@ -7,7 +7,6 @@ on property:vendor.mtk.md1.status=ready
     restart vendor.volte_stack
     restart vendor.volte_ua
     restart vendor.volte_imcb
-    wait /only_for_timeout 1
 
 on property:vendor.mtk.md1.status=reset
     rm /dev/radio/pttyims
