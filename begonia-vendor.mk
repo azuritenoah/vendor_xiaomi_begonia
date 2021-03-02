@@ -711,65 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/128.dat \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/64.dat \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/nl \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/p0 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel0.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel1.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel10.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel2.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel3.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.3/ubmModel4.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/n0 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/n1 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/n2 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/nl \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/p0 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/p1 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/ubmModel0.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/ubmModel10.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/ubmModel3.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2.5/ubmModel4.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/128.dat \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/64.dat \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/nl \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/p0 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel0.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel1.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel10.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel2.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel3.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/p2/ubmModel4.bin \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/1 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/10 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/11 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/12 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/13 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/2 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/3 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/4 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/5 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/6 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/7 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/8 \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/voicecommand/training/ubmfile/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/supplement/9 \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/FT8719_G7_TestINI.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/FT8719_G7_TestINI.ini \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_5920.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_5920.csv \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_5921.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_5921.csv \
