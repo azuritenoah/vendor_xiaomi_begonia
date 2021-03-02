@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/xiaomi/begonia/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/xiaomi/begonia/proprietary/vendor/bin/dc_cal:$(TARGET_COPY_OUT_VENDOR)/bin/dc_cal \
-    vendor/xiaomi/begonia/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/xiaomi/begonia/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
     vendor/xiaomi/begonia/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
     vendor/xiaomi/begonia/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
@@ -118,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/bin/xcap:$(TARGET_COPY_OUT_VENDOR)/bin/xcap \
     vendor/xiaomi/begonia/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/FV-SAM-MTK2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/FV-SAM-MTK2.dat \
     vendor/xiaomi/begonia/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W1943:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W1943 \
     vendor/xiaomi/begonia/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W1943_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W1943_ENUM \
@@ -512,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/nxp/VoIP_mic_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_spk.bin \
     vendor/xiaomi/begonia/proprietary/vendor/etc/nxp/VoIP_mic_spk_game.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_spk_game.bin \
     vendor/xiaomi/begonia/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/pm_test_item_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pm_test_item_config.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
     vendor/xiaomi/begonia/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/xiaomi/begonia/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -675,9 +672,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/xiaomi/begonia/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/xiaomi/begonia/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
     vendor/xiaomi/begonia/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/begonia/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/begonia/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
@@ -690,10 +684,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/begonia/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/xiaomi/begonia/proprietary/vendor/etc/tianma_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tianma_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/FT8719_G7_TestINI.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/FT8719_G7_TestINI.ini \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_5920.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_5920.csv \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_5921.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_5921.csv \
@@ -728,7 +718,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/begonia/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/xiaomi/begonia/proprietary/vendor/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/fstab.enableswap \
     vendor/xiaomi/begonia/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/begonia/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
