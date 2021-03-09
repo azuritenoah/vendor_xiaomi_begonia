@@ -273,17 +273,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.udc_lib.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.udc_lib.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.volte_imsm_93.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imsm_93.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.volte_md_status.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_md_status.rc \
@@ -291,8 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init.xcap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xcap.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
@@ -1217,15 +1210,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/bt_drv.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fmradio_drv.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/fpsgo.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/gps_drv.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/met.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/udc_lib.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wlan_drv_gen4m.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_chrdev_wifi.ko \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/modules_prebuilt/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules_prebuilt/wmt_drv.ko \
     vendor/xiaomi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_IdxMgr.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_tuning.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/ov02a10alpha_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10alpha_mipi_raw_IdxMgr.so \
